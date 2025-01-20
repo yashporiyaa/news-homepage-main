@@ -18,10 +18,9 @@
     
     .container {
       padding: 15px 25px 15px 25px;
-
     }
     
-    div.logo {
+    .logo {
       flex: 1;
       width: 150px;
       align-items: center;
@@ -37,6 +36,9 @@
     }
     .icon a {
       color: hsl(236, 13%, 42%);
+    }
+    .icon a#cat {
+      padding-right: 0px;
     }
     .icon a:hover {
       color: hsl(5, 85%, 63%);
@@ -77,7 +79,7 @@
       padding: 20px 25px 15px 25px;
       background-color: hsl(240, 100%, 5%);
       margin-left: 25px;
-      margin-right: 20px;
+      margin-right: 16px;
       margin-bottom: 25px;
     }
     .right h1 {
@@ -202,7 +204,7 @@
           <a href="#news">New</a>
           <a href="#contact">Polular</a>
           <a href="#search">Trending</a>
-          <a href="#about">Categories</a>
+          <a href="#about" id="cat">Categories</a>
         </div>
     </div>
     <div class="content">
